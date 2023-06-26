@@ -11,7 +11,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   <Provider store={store}>
-    <BrowserRouter basename="Unbeaten-wallet">
+    <BrowserRouter basename="/react_bc51_pelmeshek91">
       <PersistGate persistor={persistor}>
         <App />
       </PersistGate>
